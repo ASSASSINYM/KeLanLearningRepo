@@ -20,6 +20,8 @@
 		65168A4B255521FC0094FAED /* HomeStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65168A4A255521FC0094FAED /* HomeStoryboard.storyboard */; };
 		65168A4E25552ACB0094FAED /* MineStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65168A4D25552ACB0094FAED /* MineStoryboard.storyboard */; };
 		65168A5025552AD70094FAED /* MineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65168A4F25552AD70094FAED /* MineViewController.swift */; };
+		65168A5325552C320094FAED /* CustomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65168A5225552C320094FAED /* CustomView.xib */; };
+		65168A5525552C440094FAED /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65168A5425552C440094FAED /* CustomView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +61,8 @@
 		65168A4A255521FC0094FAED /* HomeStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HomeStoryboard.storyboard; sourceTree = "<group>"; };
 		65168A4D25552ACB0094FAED /* MineStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MineStoryboard.storyboard; sourceTree = "<group>"; };
 		65168A4F25552AD70094FAED /* MineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineViewController.swift; sourceTree = "<group>"; };
+		65168A5225552C320094FAED /* CustomView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomView.xib; sourceTree = "<group>"; };
+		65168A5425552C440094FAED /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +113,7 @@
 		651689D4255520940094FAED /* 2020SwiftKeLanDemo */ = {
 			isa = PBXGroup;
 			children = (
+				65168A5125552C200094FAED /* View */,
 				65168A4C25552AC00094FAED /* Mine */,
 				65168A49255521E20094FAED /* Home */,
 				651689D5255520940094FAED /* AppDelegate.swift */,
@@ -157,6 +162,15 @@
 				65168A4F25552AD70094FAED /* MineViewController.swift */,
 			);
 			path = Mine;
+			sourceTree = "<group>";
+		};
+		65168A5125552C200094FAED /* View */ = {
+			isa = PBXGroup;
+			children = (
+				65168A5425552C440094FAED /* CustomView.swift */,
+				65168A5225552C320094FAED /* CustomView.xib */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -268,6 +282,7 @@
 				65168A4B255521FC0094FAED /* HomeStoryboard.storyboard in Resources */,
 				651689DD255520940094FAED /* Main.storyboard in Resources */,
 				65168A4E25552ACB0094FAED /* MineStoryboard.storyboard in Resources */,
+				65168A5325552C320094FAED /* CustomView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,6 +310,7 @@
 				65168A48255521C70094FAED /* HomeViewController.swift in Sources */,
 				651689DA255520940094FAED /* ViewController.swift in Sources */,
 				651689E0255520940094FAED /* _020SwiftKeLanDemo.xcdatamodeld in Sources */,
+				65168A5525552C440094FAED /* CustomView.swift in Sources */,
 				651689D6255520940094FAED /* AppDelegate.swift in Sources */,
 				651689D8255520940094FAED /* SceneDelegate.swift in Sources */,
 				65168A5025552AD70094FAED /* MineViewController.swift in Sources */,
