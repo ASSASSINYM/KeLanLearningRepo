@@ -16,6 +16,10 @@
 		651689E5255520980094FAED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 651689E3255520980094FAED /* LaunchScreen.storyboard */; };
 		651689F0255520980094FAED /* _020SwiftKeLanDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651689EF255520980094FAED /* _020SwiftKeLanDemoTests.swift */; };
 		651689FB255520980094FAED /* _020SwiftKeLanDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651689FA255520980094FAED /* _020SwiftKeLanDemoUITests.swift */; };
+		65168A48255521C70094FAED /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65168A47255521C70094FAED /* HomeViewController.swift */; };
+		65168A4B255521FC0094FAED /* HomeStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65168A4A255521FC0094FAED /* HomeStoryboard.storyboard */; };
+		65168A4E25552ACB0094FAED /* MineStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65168A4D25552ACB0094FAED /* MineStoryboard.storyboard */; };
+		65168A5025552AD70094FAED /* MineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65168A4F25552AD70094FAED /* MineViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,10 @@
 		651689F6255520980094FAED /* 2020SwiftKeLanDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 2020SwiftKeLanDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		651689FA255520980094FAED /* _020SwiftKeLanDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _020SwiftKeLanDemoUITests.swift; sourceTree = "<group>"; };
 		651689FC255520980094FAED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65168A47255521C70094FAED /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		65168A4A255521FC0094FAED /* HomeStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HomeStoryboard.storyboard; sourceTree = "<group>"; };
+		65168A4D25552ACB0094FAED /* MineStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MineStoryboard.storyboard; sourceTree = "<group>"; };
+		65168A4F25552AD70094FAED /* MineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +109,8 @@
 		651689D4255520940094FAED /* 2020SwiftKeLanDemo */ = {
 			isa = PBXGroup;
 			children = (
+				65168A4C25552AC00094FAED /* Mine */,
+				65168A49255521E20094FAED /* Home */,
 				651689D5255520940094FAED /* AppDelegate.swift */,
 				651689D7255520940094FAED /* SceneDelegate.swift */,
 				651689D9255520940094FAED /* ViewController.swift */,
@@ -129,6 +139,24 @@
 				651689FC255520980094FAED /* Info.plist */,
 			);
 			path = 2020SwiftKeLanDemoUITests;
+			sourceTree = "<group>";
+		};
+		65168A49255521E20094FAED /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				65168A47255521C70094FAED /* HomeViewController.swift */,
+				65168A4A255521FC0094FAED /* HomeStoryboard.storyboard */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		65168A4C25552AC00094FAED /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				65168A4D25552ACB0094FAED /* MineStoryboard.storyboard */,
+				65168A4F25552AD70094FAED /* MineViewController.swift */,
+			);
+			path = Mine;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,7 +265,9 @@
 			files = (
 				651689E5255520980094FAED /* LaunchScreen.storyboard in Resources */,
 				651689E2255520980094FAED /* Assets.xcassets in Resources */,
+				65168A4B255521FC0094FAED /* HomeStoryboard.storyboard in Resources */,
 				651689DD255520940094FAED /* Main.storyboard in Resources */,
+				65168A4E25552ACB0094FAED /* MineStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,10 +292,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65168A48255521C70094FAED /* HomeViewController.swift in Sources */,
 				651689DA255520940094FAED /* ViewController.swift in Sources */,
 				651689E0255520940094FAED /* _020SwiftKeLanDemo.xcdatamodeld in Sources */,
 				651689D6255520940094FAED /* AppDelegate.swift in Sources */,
 				651689D8255520940094FAED /* SceneDelegate.swift in Sources */,
+				65168A5025552AD70094FAED /* MineViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -8,11 +8,21 @@
 
 import UIKit
 
+class Student {
+    var name = ""
+    var money = 0
+    var girl:String?
+}
+
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
+
+        let stu = Student.init()
+        print(stu)
     }
 
 
